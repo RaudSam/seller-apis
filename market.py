@@ -11,8 +11,7 @@ logger = logging.getLogger(__file__)
 
 
 def get_product_list(page, campaign_id, access_token):
-    """
-    Получает список товаров с площадки Яндекс Маркет.
+    """Получает список товаров с площадки Яндекс Маркет.
 
     Args:
         page (str): Страница.
@@ -44,8 +43,7 @@ def get_product_list(page, campaign_id, access_token):
 
 
 def update_stocks(stocks, campaign_id, access_token):
-    """
-    Обновляет остатки товаров на площаке Яндекс Маркет.
+    """Обновляет остатки товаров на площаке Яндекс Маркет.
 
     Args:
         stocks (list): Список словарей с данными о наличии товаров.
@@ -74,8 +72,7 @@ def update_stocks(stocks, campaign_id, access_token):
 
 
 def update_price(prices, campaign_id, access_token):
-    """
-    Обновляет цены на площадке Яндекс Маркет.
+    """Обновляет цены на площадке Яндекс Маркет.
 
     Args:
         prices (list): Список цен товаров.
