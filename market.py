@@ -14,7 +14,7 @@ def get_product_list(page, campaign_id, access_token):
     """Получает список товаров с площадки Яндекс Маркет.
 
     Args:
-        page (str): Страница.
+        page (str): Номер страницы с товарами.
         campaign_id (str): Идентификатор кампании на Яндекс Маркете.
         access_token (str): Токен доступа к API Яндекс Маркета.
 
