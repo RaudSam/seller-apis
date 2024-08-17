@@ -16,7 +16,7 @@
 Весь код работает автоматически. Он синхронизирует работу с OZON, обновляет цены и остатки товаров.
 ## YANDEX MARKET
 ### market.py
-Для запуска этого скрипта вам понадобится: 'MARKET_TOKEN', 'FBS_ID, DBS_ID', 'WAREHOUSE_FBS_ID', 'WAREHOUSE_DBS_ID'. 
+Для запуска этого скрипта вам понадобится: `MARKET_TOKEN`, `FBS_ID, DBS_ID`, `WAREHOUSE_FBS_ID`, `WAREHOUSE_DBS_ID`. 
 - MARKET_TOKEN — API-ключ продавца Яндекс Маркета.
 - FBS_ID - ID продавца, который работает по FBS.
 - DBS_ID — ID продавца, который работает по DBS.
